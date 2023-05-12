@@ -6,8 +6,7 @@ import { RouterType } from '../types'
 //引入路由级组件 并且懒加载
 const Home = lazy(() => import('../views/Home')) //主页
 const Live = lazy(() => import('../views/Live')) //直播
-const Group = lazy(() => import('../views/GroupBuying')) //团购
-const Agent = lazy(() => import('../views/Agent'))
+const Group = lazy(() => import('../views/GroupBuying')) 
 
 const RoutersTable: RouterType[] = [
   {
