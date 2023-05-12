@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "baseUrl": "./src",
+    "noImplicitAny": false, // 跳过any检测
+    "skipLibCheck": true, // 跳过检查库的代码
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "components/*": [
+        "components/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "config-overrides.js",
+    "src/components/base/Drag/index.tsx",
+    "src/components/base/Drag/index.tsx",
+    "src/views/FlowChart/index.jsx",
+    "src/views/FlowChart/index.jsx",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

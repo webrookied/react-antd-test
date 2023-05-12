@@ -1,0 +1,22 @@
+.ant-modal {
+  .ant-modal-header {
+    .ant-modal-title {
+      font-size: 20px;
+    }
+  }
+
+  .ant-modal-content {
+    .ant-modal-body {
+      .userListwrap {
+        height: 400px;
+        overflow: auto;
+        .ant-card-grid {
+          width: 25%;
+          font-size: 18px;
+          line-height: 30px;
+          border-bottom: 1px solid #ccc;
+        }
+      }
+    }
+  }
+}

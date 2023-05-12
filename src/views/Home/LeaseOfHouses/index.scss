@@ -1,0 +1,23 @@
+.ant-modal {
+    .ant-modal-header{
+        .ant-modal-title{
+            font-size: 20px;
+        }
+    }
+    .ant-modal-content {
+        .ant-modal-body {
+            ul {
+                height: 300px;
+                overflow: auto;
+                li {
+                    font-size: 18px;
+                    line-height: 30px;
+                    border-bottom: 1px solid #ccc;
+                    &:hover{
+                        color: tomato;
+                    }
+                }
+            }
+        }
+    }
+}
